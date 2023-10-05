@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{ /* root é uma variavel onde criei as cores primarias*/
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #224b22c5;
+    --cor-hover: #272727;
+
+    --font-principal: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    background-color: var(--cor-primaria);
+    padding: 2% 15% 2% 15%;
+    font-family: "krona One", sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho__caminho{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    
+}
+
+/*--------------------------Body--------------------------*/
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+.curriculo__principal{ 
+    padding: 7%;
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.curriculo{
+    font-size: 25px;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    font-family: "krona One", sans-serif;
+    color: var(--cor-primaria);
+}
+
+.imagem{
+    width: 400px;
+    height: 500px;
+}
+
+/*--------------------------footer--------------------------*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    color:var(--cor-terciaria);
+    font-family: 'krona One', sans-serif;
+    padding: 24px;
+    font-size: 15px;
+}
